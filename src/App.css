@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.App{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.container{
+  width: 600px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: auto;
+  padding: 1.2rem;
+  position: relative;
+}
+.quote-box{
+  display: flex;
+  padding: 5px;
+  font-size: 13px;
+  max-width: 450px;
+}
+.imgQuote{
+  font-size: 80px;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+}
+.autor{
+  font-size: 13px;
+  width: 100%;
+  padding: 5px;
+  text-align: end;
+}
+.buttonContainer{
+  width: 100%;
+}
+
+.button-box{
+  border: none;
+}
+.button{
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-align: end;
+  cursor: pointer;
+  margin-left: 527px;
+}
