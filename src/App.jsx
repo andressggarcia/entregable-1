@@ -4,6 +4,7 @@ import quotes from './assets/quotes.json'
 import QuoteBox from './assets/components/QuoteBox';
 
 
+
 function App() {
 
   console.log(quotes);

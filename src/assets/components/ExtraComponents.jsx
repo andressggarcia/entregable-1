@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const ExtraComponents = (colors, randomColorIndex, changePhrase)=>{
+const ExtraComponents = ({colors, randomColorIndex, changePhrase})=>{
     
 
     return(

@@ -21,6 +21,11 @@
   margin-top: auto;
   padding: 1.2rem;
   position: relative;
+  border-radius: 15px;
+  box-shadow: inset 
+  0 -3em 3em rgba(0, 0, 0, 0.082),
+  0 0  0 2px rgb(255,255,255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.424);;
 }
 .quote-box{
   display: flex;
@@ -59,4 +64,7 @@
   text-align: end;
   cursor: pointer;
   margin-left: 527px;
+}
+.button:active{
+  transform: translateY(4px);
 }

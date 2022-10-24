@@ -12,7 +12,7 @@ const QuoteBox = ()=>{
       setIndex(randomNum)
   } 
 
-  const colors =["#845EC2", "#D65DB1", "#FF6F91", "#FF9671", "#FFC75F", "#F9F871" ]
+  const colors =["#845EC2", "#D65DB1", "#FF6F91", "#FF9671", "#FFC75F", "#D9D970" ]
   const randomColorIndex = Math.floor(Math.random()*colors.length)
   document.body.style = `background: ${colors[randomColorIndex]}`
 
@@ -25,17 +25,9 @@ const QuoteBox = ()=>{
             <div className='autor'>
                 <h2 style={{color: colors[randomColorIndex]}}>{quotes[index].author}</h2>
                 <ExtraComponents colors={colors} randomColorIndex={randomColorIndex} changePhrase={changePhrase} />
-            </div>
-            <div className='buttonContainer'>
-            <div className="button-box" >
-                <button className='button' onClick={changePhrase} style={{color: colors[randomColorIndex]}} >
-                    <i class="fa-solid fa-circle-chevron-right"></i>
-                </button>
-            </div>
+            </div>    
         </div>
-                
-      </div>
-    )
-}
+        )
+    }
 
 export default QuoteBox
